@@ -33,6 +33,22 @@ with gr.Blocks(css="""
       <h1>Spoil-A-Wish</h1>
     </center>
     """)
+    gr.Markdown("""
+Spoil-A-Wish is a fun little game you play with friends where you make a wish and your friend grants it with a twist, essentially ruining it.
+
+For example:
+
+```
+Wish: I wish for a million dollars.  
+
+Response: Granted, but you get a million dollars in ZWL (Zimbabwe's defunct currency) which equals $15 USD. 
+Enjoy your happy meal.
+```
+
+Have a go against an AI instead and have fun with it.
+
+Enjoy!
+    """)
     with gr.Row():
         with gr.Column():
             user_wish = gr.TextArea(label="Wish")
