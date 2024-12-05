@@ -37,3 +37,20 @@ API Token can be created [https://dash.cloudflare.com/profile/api-tokens](https:
 
 List of all availabe models supported by `Cloudflare Workers AI` can be found at [https://developers.cloudflare.com/workers-ai/models/](https://developers.cloudflare.com/workers-ai/models/).  
 Select `Text Generation` under `Model Types`.
+
+## Step-by-step instructions
+
+1. Clone the repo
+2. Create and activate a virtual environment
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+3. Install python package dependencies
+```bash
+pip install -r requirements.txt
+```
+4. Launch
+```bash
+CLOUDFLARE_ACCOUNT_ID=abc CLOUDFLARE_API_TOKEN=xyz gradio app
+```
