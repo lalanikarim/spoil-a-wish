@@ -2,4 +2,5 @@
 /.venv/
 /.idea/
 /.devbox/
+/.gradio/
 .env
