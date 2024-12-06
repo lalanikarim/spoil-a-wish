@@ -1,6 +1,9 @@
 import gradio as gr
 import os
 from agent import WishSpoiler
+from dotenv import load_dotenv
+
+load_dotenv()
 
 account_id = os.getenv("CLOUDFLARE_ACCOUNT_ID")
 api_token = os.getenv("CLOUDFLARE_API_TOKEN")
